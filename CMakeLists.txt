@@ -3,4 +3,4 @@ project(ProgDyn C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ProgDyn main.c)
+add_executable(ProgDyn main.c headers/dichotomy.h source/dichotomy.c source/glouton.c headers/glouton.h)
