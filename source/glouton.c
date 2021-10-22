@@ -32,6 +32,7 @@ void triItems(Item tab[], int size){
         }
     }
 }
+
 /**
  * Rempli un sac de volumeMax avec les Items ayant le plus de valeur
  *
@@ -52,5 +53,6 @@ float remplirSac(Item tab[],int array_size,int volMax){
     }
     return valeurTot;
 }
+
 
 
