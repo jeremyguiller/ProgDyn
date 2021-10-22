@@ -10,9 +10,10 @@ sa machine
 ### Linux
 * cloner le code ou telecharger le .zip et decompresser le 
 * se placer dans le dossier build et faire
+* 
 * ```shell
-  cmake ..
-  make 
+    cmake ..
+    make 
   ```
 * le fichier executable a été géneré dans le repertoire build
 ### Windows avec Mingw
