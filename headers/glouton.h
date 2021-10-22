@@ -4,6 +4,9 @@
 
 #ifndef PROGDYN_GLOUTON_H
 #define PROGDYN_GLOUTON_H
+/**
+ * structure item contenant une valeur et un poid
+ */
 typedef struct {
     float valeur;
     float volume;

@@ -4,7 +4,12 @@
 
 #include "../headers/glouton.h"
 
-
+/**
+ * permet de trier un tableau contenant des Structures items et les classe
+ * par ordre decroissant de rapport valeur/volume
+ * @param tab tableau contenan des Items
+ * @param size taille du tableau
+ */
 void triItems(Item tab[], int size){
     //initialisation
     int i=0, j=0;
@@ -23,7 +28,14 @@ void triItems(Item tab[], int size){
         }
     }
 }
-
+/**
+ * Rempli un sac de volumeMax avec les Items ayant le plus de valeur
+ *
+ * @param tab tableau d'Items
+ * @param array_size taille du tableau
+ * @param volMax Le volume du sac à dos volumeMax
+ * @return la valeur Totale de notre sac
+ */
 float remplirSac(Item tab[],int array_size,int volMax){
     float vol = volMax;
     float valeurTot = 0;
