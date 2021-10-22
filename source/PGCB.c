@@ -4,11 +4,14 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * cree une nouvelle matrice de taille variable avec des nombres aleatoires
+ * @return
+ */
 int *creerMatrice(){
-    int *tab = malloc(10000*sizeof(int));
-    srand(3);
-    for (int i = 0; i < 10000; ++i) {
+    int *tab = malloc(100*sizeof(int));
+    srand(4);
+    for (int i = 0; i < 100; ++i) {
         tab[i]=rand()%2;
     }
     return tab;
@@ -16,11 +19,11 @@ int *creerMatrice(){
 
 
 void matriceTostring(int *tableau){
-    int a = -100;
-    for (int j = 0; j <100 ; ++j) {
+    int a = -10;
+    for (int j = 0; j <10 ; ++j) {
         printf("\n");
-        a = a+100;
-        for (int i = 0; i < 100; ++i) {
+        a = a+10;
+        for (int i = 0; i < 10; ++i) {
             if(tableau[a]==1){printf("*");}
             else { printf(" ");}
             a=a+1;
