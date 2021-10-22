@@ -2,6 +2,13 @@
 // Created by j.guillerminprina on 20/10/2021.
 //
 /**
+ * La classe dichotomy.c crée un algorithme permettant de trouver l'index
+ * d'un nombre dans un tableau de valeur en minimisant le temps de recherche
+ * et la charge memoire
+ */
+
+
+/**
  * Trouve rapidement dans un tableau d'entier l'index de l'entier indiqué
  * en paramétre. Renvoie -1 en cas d'echec
  * @param array tableau d'entier

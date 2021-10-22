@@ -1,6 +1,10 @@
 //
 // Created by j.guillerminprina on 20/10/2021.
 //
+/**
+ * La classe glouton.c crée un algorithme glouton afin de resoudre le probleme
+ * du sac à dos.
+ */
 
 #include "../headers/glouton.h"
 
