@@ -6,6 +6,9 @@
 #include "headers/PGCB.h"
 
 int main() {
+
+    matriceTostring(creerMatrice());
+
 //    int const taille = 10000;
 //    int *array = (int*) malloc(sizeof(int)*taille);
 //    for (int i = 0; i <taille ; i++) {
@@ -34,8 +37,6 @@ int main() {
 //        printf("%f\n",objets[i].valeur/objets[i].volume);
 //    }
 //    printf("la valeur du sac est : %f\n", remplirSac(objets,3,10));
-
-    matriceTostring(creerMatrice());
 
 
 }
