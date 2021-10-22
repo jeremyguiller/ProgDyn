@@ -14,15 +14,15 @@ int *creerMatrice(){
     for (int i = 0; i < 100; ++i) {
         tab[i]=rand()%2;
     }
+    tab[101]='\0';
     return tab;
 }
 
 
 void matriceTostring(int *tableau){
-    int a = -10;
+    int a = 0;
     for (int j = 0; j <10 ; ++j) {
         printf("\n");
-        a = a+10;
         for (int i = 0; i < 10; ++i) {
             if(tableau[a]==1){printf("*");}
             else { printf(" ");}
