@@ -37,6 +37,7 @@ void triItems(Item tab[], int size){
  * @return la valeur Totale de notre sac
  */
 float remplirSac(Item tab[],int array_size,int volMax){
+    triItems(tab, array_size);
     float vol = volMax;
     float valeurTot = 0;
     for (int i = 0; i < array_size; ++i) {
