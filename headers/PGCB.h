@@ -5,5 +5,5 @@
 #ifndef PROGDYN_PGCB_H
 #define PROGDYN_PGCB_H
 void matriceTostring(int tab[]);
-int creerMatrice();
+int *creerMatrice();
 #endif //PROGDYN_PGCB_H
