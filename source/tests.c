@@ -6,8 +6,15 @@
 #include "CUnit/CUnit.h"
 #include "../headers/dichotomy.h"
 #include "../headers/glouton.h"
+/**
+ * la classe tests.c realise les tests de bon fonctionnement des
+ * algorithme à l'aide d'assert. Si les test tourne sans retour on estime
+ * que les algorithme fonctionnent pour les valeurs données
+ */
 
-
+/**
+ * Test de l'algorithme par dichotomie
+ */
 void testDichotomy(){
     int const TAILLE = 10000;
     int *array = (int*) malloc(sizeof(int) * TAILLE);
@@ -18,7 +25,9 @@ void testDichotomy(){
     assert(find_by_dichotomy(array, TAILLE, 589) == 589) ;
     assert(find_by_dichotomy(array, TAILLE, 2)==2) ;
 }
-
+/**
+ * Test de l'algorithme glouton qui remplit un sac à dos
+ */
 void testGlouton() {
     Item objets[5];
     Item monItem1; monItem1.volume = 5; monItem1.valeur = 5;

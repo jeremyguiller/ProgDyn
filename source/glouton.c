@@ -1,12 +1,13 @@
 //
 // Created by j.guillerminprina on 20/10/2021.
 //
+#include "../headers/glouton.h"
 /**
  * La classe glouton.c crée un algorithme glouton afin de resoudre le probleme
  * du sac à dos.
  */
 
-#include "../headers/glouton.h"
+
 
 /**
  * permet de trier un tableau contenant des Structures items et les classe
