@@ -10,7 +10,6 @@ sa machine
 ### Linux
 * cloner le code ou telecharger le .zip et decompresser le 
 * se placer dans le dossier build et faire
-* 
 * ```shell
     cmake ..
     make 
