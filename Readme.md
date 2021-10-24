@@ -37,3 +37,10 @@ make documentation
 ```
 La Doc est generé dans un dossier Doc à la racine du projet. Pour la 
 consulter il suffit d'ouvrir le fichier index.html avec un navigateur
+
+## Fonctionnement
+L'application ProdDyn realise tout d'abbord les tests des algorithmes
+- dichotomie
+- l'algorithme glouton
+dans un second temps le programme affiche une matrice géneré aleatoirement et
+remplit le plus grand carré vide avec des #
