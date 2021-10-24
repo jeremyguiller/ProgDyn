@@ -34,7 +34,7 @@ void testGlouton() {
     objets[4] = monItem5;
 
     assert(remplirSac(objets,5,25)==37);
-    CU_ASSERT(2);
+
 }
 
 
